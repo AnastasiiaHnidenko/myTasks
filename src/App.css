@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +27,7 @@
 
 .App-link {
   color: #61dafb;
+  background-color: cornflowerblue;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +37,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input {
+  line-height: 1.5em;
+  border-radius: 6px;
+  border: solid 1px #eeeeee;
+  padding: 4px 6px;
+  display: block;
+  width: 30%;
+  box-sizing: border-box;
+
+}
+.error {
+  color: red;
+  font-weight: 600;
+}
+
+.button {
+  background-color: lavenderblush;
+  border-radius: 100px;
+}
+
+.main-container {
+  width: 45%;
+  margin-left: 40px;
+  margin-top: 35px;
+  border: solid 4px ;
+  border-color: pink;
+  border-radius: 11px;
+}
+.form {
+  margin-left: 25px;
+  margin-bottom: 15px;
 }
